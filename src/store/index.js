@@ -6,17 +6,17 @@ export default createStore({
     todoList: [
       {
         id: uuidv4(),
-        name: 'Wash the dishes',
+        name: 'Example task №1',
         done: false,
       },
       {
         id: uuidv4(),
-        name: 'Clean the appartment',
+        name: 'Example task №2',
         done: false,
       },
       {
         id: uuidv4(),
-        name: 'Do homework',
+        name: 'Example task №3',
         done: false,
       },
     ]

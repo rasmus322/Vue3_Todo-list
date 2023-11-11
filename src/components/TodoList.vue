@@ -13,10 +13,7 @@
         required: true
       }
     },
-    components: { TodoItem },
-    setup() {
-
-    }
+    components: { TodoItem }
   }
 </script>
 <style scoped>

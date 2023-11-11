@@ -23,7 +23,6 @@
 
       function changeTab(tab) {
         activeTab.value = tab
-        console.log('change', activeTab)
       }
 
       return { store, activeTab, changeTab }

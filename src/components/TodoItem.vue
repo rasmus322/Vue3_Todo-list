@@ -20,6 +20,7 @@
     },
     setup(props) {
       const store = useStore()
+
       const onCheck = computed({
         get() {
           return props.task.done
@@ -28,6 +29,7 @@
           store.commit("toggleStatus", props.task.id)
         }
       })
+      
       const onDelete = () => {
         store.commit("deleteTodo", props.task.id)
       }
